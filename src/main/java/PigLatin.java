@@ -5,7 +5,6 @@ import java.util.Scanner; // Import the Scanner class to read text files
 public class PigLatin {
     
     public void tester() {
-	    String [] vowels={"a","e","i","o","u"};
         // String[] lines = loadStrings("words.txt");
         String[] lines = new String[8]; 
         try{
@@ -29,6 +28,7 @@ public class PigLatin {
 	    }
     }
    public int findFirstVowel(String sWord){
+String [] vowels={"a","e","i","o","u"};
 //precondition: sWord is a valid String of length greater than 0.
   for (int i=0;i<sWord.length();i++){
     for (int u=0;u<vowels.length;u++){
