@@ -5,6 +5,7 @@ import java.util.Scanner; // Import the Scanner class to read text files
 public class PigLatin {
     
     public void tester() {
+	    String [] vowels={"a","e","i","o","u"};
         // String[] lines = loadStrings("words.txt");
         String[] lines = new String[8]; 
         try{
